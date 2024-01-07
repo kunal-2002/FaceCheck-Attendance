@@ -12,7 +12,8 @@ class Train:
     def __init__(self, root):
         self.root = root
         self.root.geometry("1540x790+0+0")
-        self.root.title("Face Recognition System")
+        self.root.title("FaceCheck Attendance")
+        self.root.wm_iconbitmap("face.ico")
 
 
         title_lbl = Label(self.root,text="TRAINING THE ALGORITHM",font=("times new roman",25,"bold"),bg="white",fg="red")

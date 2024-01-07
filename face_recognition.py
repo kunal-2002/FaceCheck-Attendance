@@ -15,7 +15,8 @@ class Face_Recognition:
     def __init__(self, root):
         self.root = root
         self.root.geometry("1540x790+0+0")
-        self.root.title("Face Recognition System")
+        self.root.title("FaceCheck Attendance")
+        self.root.wm_iconbitmap("face.ico")
         
         title_lbl = Label(self.root,text="FACE RECOGNITION",font=("times new roman",25,"bold"),bg="white",fg="Green")
         title_lbl.place(x=0,y=0,width=1540,height=45)
@@ -45,7 +46,7 @@ class Face_Recognition:
         
     # Attendance
     def mark_attendance(self,i,r,n,d):
-        with open("attendance.csv","r+",newline="\n") as f:
+        with open("attendance_report/present.csv","r+",newline="\n") as f:
             myDataList = f.readlines()
             name_list=[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
             for line in myDataList:

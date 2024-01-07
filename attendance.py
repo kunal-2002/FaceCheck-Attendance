@@ -13,7 +13,8 @@ class Attendance:
     def __init__(self, root):
         self.root = root
         self.root.geometry("1540x790+0+0")
-        self.root.title("Face Recognition System")
+        self.root.title("FaceCheck Attendance")
+        self.root.wm_iconbitmap("face.ico")
         
         # variables
         self.var_studentID = StringVar()
