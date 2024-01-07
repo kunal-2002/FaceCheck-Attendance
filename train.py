@@ -17,6 +17,9 @@ class Train:
 
         title_lbl = Label(self.root,text="TRAINING THE ALGORITHM",font=("times new roman",25,"bold"),bg="white",fg="red")
         title_lbl.place(x=0,y=0,width=1540,height=45)
+        
+        Back_Button = Button(title_lbl, text="Back", command=self.root.destroy, font=("arial",11,"bold"),width=17,bg="white",fg="red")
+        Back_Button.pack(side=RIGHT)
 
         img_top = Image.open(r".\assets\facialrecognition.png")
         img_top = img_top.resize((1540,325),Image.LANCZOS)

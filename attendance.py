@@ -43,6 +43,9 @@ class Attendance:
         title_lbl = Label(bg_img,text="ATTENDANCE MANAGEMENT SYSTEM",font=("times new roman",25,"bold"),bg="white",fg="darkgreen")
         title_lbl.place(x=0,y=0,width=1540,height=45)
         
+        Back_Button = Button(title_lbl, text="Back", command=self.root.destroy, font=("arial",11,"bold"),width=17,bg="white",fg="red")
+        Back_Button.pack(side=RIGHT)
+        
         # Main Frame
         main_frame = Frame(bg_img, bd=2, bg="white")
         main_frame.place(x=20, y=55, width=1490, height=600)
