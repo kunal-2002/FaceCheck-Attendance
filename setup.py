@@ -9,7 +9,7 @@ if sys.platform == 'win32':
 os.environ['TCL_LIBRARY'] = r"C:\Users\Admin\AppData\Local\Programs\Python\Python311\tcl\tcl8.6"
 os.environ['TK_LIBRARY'] = r"C:\Users\Admin\AppData\Local\Programs\Python\Python311\tcl\tk8.6"
 
-executables = [Executable("main.py", base=base, icon="face.ico")]
+executables = [Executable("app.py", base=base, icon="face.ico")]
 
 
 setup(
