@@ -48,7 +48,7 @@ class Developer:
         w_label1 = Label(main_frame1, text="Full Stack Developer", font=("times new roman", 20, "bold"),fg="blue", bg="white")
         w_label1.place(x=100,y=260)
         
-        p_label1 = Label(main_frame1, text="Student, 7th Semester", font=("times new roman", 14, "bold"),fg="black", bg="white")
+        p_label1 = Label(main_frame1, text="Student, 8th Semester", font=("times new roman", 14, "bold"),fg="black", bg="white")
         p_label1.place(x=100,y=300)
         
         c_label1 = Label(main_frame1, text="CRSSIET, Jhajjar", font=("times new roman", 14, "bold"),fg="black", bg="white")
@@ -84,7 +84,7 @@ class Developer:
         w_label2 = Label(main_frame2, text="Full Stack Developer", font=("times new roman", 20, "bold"),fg="blue", bg="white")
         w_label2.place(x=100,y=260)
         
-        p_label2 = Label(main_frame2, text="Student, 7th Semester", font=("times new roman", 14, "bold"),fg="black", bg="white")
+        p_label2 = Label(main_frame2, text="Student, 8th Semester", font=("times new roman", 14, "bold"),fg="black", bg="white")
         p_label2.place(x=100,y=300)
         
         c_label2 = Label(main_frame2, text="CRSSIET, Jhajjar", font=("times new roman", 14, "bold"),fg="black", bg="white")
